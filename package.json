@@ -1,0 +1,41 @@
+{
+  "name": "poison-pentametron",
+  "title": "Poison Pentametron",
+  "description": "Mashed up by @booyaa. Curated by @pentametron. Words by @you.",
+  "version": "1.0.0-9",
+  "homepage": "https://github.com/booyaa/poison-pentametron",
+  "author": {
+    "name": "booyaa",
+    "email": "booyaabooyaabooyaa@gmail.com",
+    "url": "booyaa.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/booyaa/poison-pentametron.git"
+  },
+  "dependencies": {
+    "ejs": "0.8.3",
+    "express": "3.1.0",
+    "littleprinter": "1.0.2",
+    "array-extended": "0.0.4",
+    "feedparser": "0.13.2",
+    "underscore.string": "2.3.1",
+    "date-utils": "1.2.12"
+  },
+  "devDependencies": {
+    "grunt": "0.4.0",
+    "grunt-contrib-jshint": "0.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": "1.1.x"
+  },
+  "subdomain": "poisonpentametron",
+  "scripts": {
+    "start": "express/server.js"
+  },
+  "keywords": [
+    "berg",
+    "little printer"
+  ]
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sample</title>
+  <% include head %>
+</head>
+<body>
+<pre class="mono">
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    poison pentametron
+    mashed up by @booyaa
+    arrangement by @pentametron
+    words by @you
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+</pre>
+<img src='/images/s.gif' />
+<img src='/images/m.gif' />
+<img src='/images/g.gif' />
+<img src='/images/i.gif' />
+<img src='/images/y.gif' />
+<img src='/images/t.gif' />
+<img src='/images/i.gif' />
+<img src='/images/i.gif' />
+<br />
+<img src='/images/h.gif' />
+<img src='/images/y.gif' />
+<img src='/images/y.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/a.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/m.gif' />
+<img src='/images/s.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/q.gif' />
+<img src='/images/n.gif' />
+<img src='/images/w.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/p.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/t.gif' />
+<img src='/images/a.gif' />
+<img src='/images/u.gif' />
+<img src='/images/e.gif' />
+<img src='/images/a.gif' />
+<br />
+<img src='/images/w.gif' />
+<img src='/images/a.gif' />
+<img src='/images/g.gif' />
+<img src='/images/i.gif' />
+<img src='/images/l.gif' />
+<img src='/images/i.gif' />
+<img src='/images/v.gif' />
+<img src='/images/n.gif' />
+<br />
+<img src='/images/a.gif' />
+<img src='/images/t.gif' />
+<img src='/images/r.gif' />
+<img src='/images/l.gif' />
+<img src='/images/l.gif' />
+<img src='/images/l.gif' />
+<img src='/images/e.gif' />
+<img src='/images/t.gif' />
+<br />
+<img src='/images/s.gif' />
+<img src='/images/i.gif' />
+<img src='/images/i.gif' />
+<img src='/images/l.gif' />
+<img src='/images/a.gif' />
+<img src='/images/a.gif' />
+<img src='/images/r.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<img src='/images/n.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/h.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/a.gif' />
+<br />
+<img src='/images/a.gif' />
+<img src='/images/n.gif' />
+<img src='/images/d.gif' />
+<img src='/images/r.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/c.gif' />
+<img src='/images/r.gif' />
+<img src='/images/n.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/c.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<img src='/images/p.gif' />
+<img src='/images/u.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/v.gif' />
+<img src='/images/e.gif' />
+<img src='/images/t.gif' />
+<img src='/images/m.gif' />
+<img src='/images/a.gif' />
+<img src='/images/p.gif' />
+<img src='/images/a.gif' />
+<img src='/images/a.gif' />
+<br />
+<img src='/images/i.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/o.gif' />
+<img src='/images/e.gif' />
+<img src='/images/n.gif' />
+<img src='/images/c.gif' />
+<img src='/images/l.gif' />
+<img src='/images/p.gif' />
+<br />
+<img src='/images/s.gif' />
+<img src='/images/l.gif' />
+<img src='/images/m.gif' />
+<img src='/images/m.gif' />
+<img src='/images/a.gif' />
+<img src='/images/a.gif' />
+<img src='/images/l.gif' />
+<img src='/images/p.gif' />
+<br />
+<img src='/images/i.gif' />
+<img src='/images/e.gif' />
+<img src='/images/o.gif' />
+<img src='/images/b.gif' />
+<img src='/images/s.gif' />
+<img src='/images/k.gif' />
+<img src='/images/y.gif' />
+<img src='/images/l.gif' />
+<br />
+<img src='/images/o.gif' />
+<img src='/images/v.gif' />
+<img src='/images/r.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<br />
+<img src='/images/n.gif' />
+<img src='/images/e.gif' />
+<img src='/images/r.gif' />
+<img src='/images/r.gif' />
+<img src='/images/g.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/l.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/l.gif' />
+<img src='/images/o.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/i.gif' />
+<img src='/images/f.gif' />
+<img src='/images/o.gif' />
+<img src='/images/a.gif' />
+<br />
+<img src='/images/o.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/w.gif' />
+<img src='/images/t.gif' />
+<img src='/images/l.gif' />
+<img src='/images/o.gif' />
+<img src='/images/v.gif' />
+<img src='/images/t.gif' />
+<br />
+<img src='/images/f.gif' />
+<img src='/images/i.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/h.gif' />
+<img src='/images/a.gif' />
+<img src='/images/r.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/s.gif' />
+<img src='/images/m.gif' />
+<img src='/images/o.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/d.gif' />
+<img src='/images/t.gif' />
+<br />
+<img src='/images/p.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/o.gif' />
+<img src='/images/s.gif' />
+<img src='/images/h.gif' />
+<img src='/images/a.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/h.gif' />
+<br />
+<img src='/images/e.gif' />
+<img src='/images/e.gif' />
+<img src='/images/r.gif' />
+<img src='/images/e.gif' />
+<img src='/images/a.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/a.gif' />
+<img src='/images/e.gif' />
+<br />
+<img src='/images/r.gif' />
+<img src='/images/x.gif' />
+<img src='/images/n.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/r.gif' />
+<img src='/images/k.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/f.gif' />
+<img src='/images/t.gif' />
+<img src='/images/i.gif' />
+<img src='/images/n.gif' />
+<img src='/images/i.gif' />
+<img src='/images/i.gif' />
+<img src='/images/b.gif' />
+<img src='/images/a.gif' />
+<br />
+<img src='/images/e.gif' />
+<img src='/images/r.gif' />
+<img src='/images/n.gif' />
+<img src='/images/o.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/n.gif' />
+<img src='/images/o.gif' />
+<img src='/images/p.gif' />
+<br />
+<img src='/images/c.gif' />
+<img src='/images/e.gif' />
+<img src='/images/g.gif' />
+<img src='/images/c.gif' />
+<img src='/images/n.gif' />
+<img src='/images/g.gif' />
+<img src='/images/y.gif' />
+<img src='/images/p.gif' />
+<br />
+<img src='/images/t.gif' />
+<img src='/images/m.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/t.gif' />
+<img src='/images/i.gif' />
+<img src='/images/p.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/l.gif' />
+<br />
+<img src='/images/i.gif' />
+<img src='/images/e.gif' />
+<img src='/images/a.gif' />
+<img src='/images/u.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/i.gif' />
+<img src='/images/b.gif' />
+<img src='/images/e.gif' />
+<br />
+<img src='/images/o.gif' />
+<img src='/images/l.gif' />
+<img src='/images/n.gif' />
+<img src='/images/r.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/n.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/n.gif' />
+<img src='/images/y.gif' />
+<img src='/images/y.gif' />
+<img src='/images/n.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/f.gif' />
+<img src='/images/s.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/o.gif' />
+<img src='/images/a.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/m.gif' />
+<img src='/images/o.gif' />
+<img src='/images/t.gif' />
+<br />
+<img src='/images/y.gif' />
+<img src='/images/l.gif' />
+<img src='/images/n.gif' />
+<img src='/images/l.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<img src='/images/r.gif' />
+<img src='/images/o.gif' />
+<br />
+<img src='/images/o.gif' />
+<img src='/images/o.gif' />
+<img src='/images/e.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/exclaim.gif' />
+<img src='/images/e.gif' />
+<img src='/images/r.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/w.gif' />
+<img src='/images/question.gif' />
+<img src='/images/r.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/e.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/u.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<br />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/n.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+<img src='/images/blank.gif' />
+
+<pre class="mono">
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    i want an Apple.... at the Apple store:)
+    I never really loved a boy before
+    tequila cupcake for a kingpin.. ME!
+    Ya allah panas gila hari ni
+    I still remember those nocturnal run
+    Gym grind tomorrow morning anyone?
+    My patience level is extremely low.
+    She was a vision of perfection yo
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+</pre>
+  <% include foot %>
+</body>
+</html>
