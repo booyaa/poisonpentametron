@@ -17,10 +17,11 @@ http://poisonpentametron.nodejitsu.com/sample/
 
 ## Thanks
 
-* pentametron - who found the words.
-* berg - for an excellent hackday and showing interest in the project.
-* roy lines - for writing the node version of the little printer api.
-* edwin webb - for making an awesome grunt template based off roy's hard work.
+* @pentametron - who found the words.
+* Berg - for an excellent hackday and showing interest in the project.
+* Roy Lines - for writing the node version of the little printer api.
+* Edwin Webb - for making an awesome grunt template based off roy's hard work.
+* Sean McManus - for his excellent ransom font.
 
 ## Feedback
 
