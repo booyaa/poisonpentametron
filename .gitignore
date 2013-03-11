@@ -10,6 +10,11 @@ lib-cov
 Gruntfile.js
 Procfile
 
+## yes i know it should be here, but it fucks up my deploy to nodejitsu
+stage/*.txt
+stage/*.rss*
+
+dontcommitmebro
 pids
 logs
 results

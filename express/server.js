@@ -1,5 +1,7 @@
 'use strict';
 
+var versionString = 'v007';
+
 var express = require('express');
 var handler = require('../conf/handler.js');
 var littleprinter = require('littleprinter');
@@ -58,4 +60,4 @@ littleprinter.setup(app, handler);
 //start listening
 app.listen(port);
 
-console.log('listening on port %d', port);
+console.log('listening on port %d %s', port, versionString);
