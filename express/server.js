@@ -1,6 +1,6 @@
 'use strict';
 
-var versionString = 'v007';
+var versionString = 'v008';
 
 var express = require('express');
 var handler = require('../conf/handler.js');
@@ -19,8 +19,11 @@ app.use(express.static(__dirname+'/../static'));
 
 //Override functions to pass data to paths
 app.use('/edition', function(req, res, next) {
-  console.log('/edition headers: %s', JSON.stringify(req.headers, null, 4));
+  console.log('/edition\nip: %s\nheaders: %s', req.connection.remoteAddress, JSON.stringify(req.headers, null, 4));
 
+  console.log('query: %s', JSON.stringify(req.query, null, 4));
+
+  // source? somewhere on so
   app.locals.absUrl = function(url) {
     var host = req.headers.host;
     return 'http://' + host + url;
@@ -29,12 +32,11 @@ app.use('/edition', function(req, res, next) {
   if(!pp.isFeedFresh()) {
     console.log('update twitter feed');
     pp.updateFeed();
+    req.query.fresh = "yes";
   } else { // this will vanish eventually
     console.log('display existing page');
+    req.query.fresh = "no";
   }
-
-  // testing
-  // pp.updateFeed();
 
   //run the handler in littleprinter
   next(); 
@@ -42,7 +44,9 @@ app.use('/edition', function(req, res, next) {
 
 //Override functions to pass data to paths
 app.use('/sample', function(req, res, next) {
-  console.log('/sample headers: %s', JSON.stringify(req.headers, null, 4));
+  console.log('/sample\nip: %s\nheaders: %s', req.connection.remoteAddress, JSON.stringify(req.headers, null, 4));
+
+  console.log('query: %s', JSON.stringify(req.query, null, 4));
 
   app.locals.absUrl = function(url) {
     var host = req.headers.host;
