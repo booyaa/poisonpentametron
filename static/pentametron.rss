@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:twitter="http://api.twitter.com">
+<rss xmlns:georss="http://www.georss.org/georss" version="2.0" xmlns:twitter="http://api.twitter.com" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter / pentametron</title>
     <link>http://twitter.com/pentametron</link>
@@ -7,24 +7,6 @@
     <description>Twitter updates from Pentametron 2013 / pentametron.</description>
     <language>en-us</language>
     <ttl>40</ttl>
-  <item>
-    <title>pentametron: RT @THEREALJUICYJAZ: Good morning!!! Thankful for another day &#128588;</title>
-    <description>pentametron: RT @THEREALJUICYJAZ: Good morning!!! Thankful for another day &#128588;</description>
-    <pubDate>Sun, 10 Mar 2013 14:43:08 +0000</pubDate>
-    <guid>http://twitter.com/pentametron/statuses/310762750429261824</guid>
-    <link>http://twitter.com/pentametron/statuses/310762750429261824</link>
-    <twitter:source>&lt;a href=&quot;http://doot.com/&quot; rel=&quot;nofollow&quot;&gt;Pentametron&lt;/a&gt;</twitter:source>
-    <twitter:place/>
-  </item>
-  <item>
-    <title>pentametron: RT @_VictoriaRx: Last minute one direction tickets yay! :)</title>
-    <description>pentametron: RT @_VictoriaRx: Last minute one direction tickets yay! :)</description>
-    <pubDate>Sun, 10 Mar 2013 14:43:02 +0000</pubDate>
-    <guid>http://twitter.com/pentametron/statuses/310762728706932736</guid>
-    <link>http://twitter.com/pentametron/statuses/310762728706932736</link>
-    <twitter:source>&lt;a href=&quot;http://doot.com/&quot; rel=&quot;nofollow&quot;&gt;Pentametron&lt;/a&gt;</twitter:source>
-    <twitter:place/>
-  </item>
   <item>
     <title>pentametron: RT @adamadele21: Stop trying. Doesn't matter anymore.</title>
     <description>pentametron: RT @adamadele21: Stop trying. Doesn't matter anymore.</description>
@@ -184,6 +166,24 @@
     <pubDate>Sun, 10 Mar 2013 07:10:42 +0000</pubDate>
     <guid>http://twitter.com/pentametron/statuses/310648893010489344</guid>
     <link>http://twitter.com/pentametron/statuses/310648893010489344</link>
+    <twitter:source>&lt;a href=&quot;http://doot.com/&quot; rel=&quot;nofollow&quot;&gt;Pentametron&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>pentametron: RT @muhammadmyname: Be careful buddy , haters everywhere !!!</title>
+    <description>pentametron: RT @muhammadmyname: Be careful buddy , haters everywhere !!!</description>
+    <pubDate>Sun, 10 Mar 2013 07:10:36 +0000</pubDate>
+    <guid>http://twitter.com/pentametron/statuses/310648870323503104</guid>
+    <link>http://twitter.com/pentametron/statuses/310648870323503104</link>
+    <twitter:source>&lt;a href=&quot;http://doot.com/&quot; rel=&quot;nofollow&quot;&gt;Pentametron&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>pentametron: RT @caleb_riddle: Fell down the escalator at the mall.</title>
+    <description>pentametron: RT @caleb_riddle: Fell down the escalator at the mall.</description>
+    <pubDate>Sun, 10 Mar 2013 06:40:31 +0000</pubDate>
+    <guid>http://twitter.com/pentametron/statuses/310641296475832322</guid>
+    <link>http://twitter.com/pentametron/statuses/310641296475832322</link>
     <twitter:source>&lt;a href=&quot;http://doot.com/&quot; rel=&quot;nofollow&quot;&gt;Pentametron&lt;/a&gt;</twitter:source>
     <twitter:place/>
   </item>

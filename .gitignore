@@ -11,7 +11,6 @@ Gruntfile.js
 Procfile
 
 ## yes i know it should be here, but it fucks up my deploy to nodejitsu
-stage/cleanFile.txt
 stage/*.txt
 stage/*.rss*
 
