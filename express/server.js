@@ -27,14 +27,34 @@ app.use('/edition', function(req, res, next) {
     return 'http://' + host + url;
   };
 
-  if(!pp.isFeedFresh()) {
-    console.log('2 update twitter feed');
-    pp.updateFeed();
-    req.query.fresh = "yes";
-  } else { // this will vanish eventually
-    console.log('2 display existing page');
-    req.query.fresh = "no";
-  }
+  // if(!pp.isFeedFresh()) {
+  //   console.log('2 update twitter feed');
+  //   pp.updateFeed();
+  //   req.query.fresh = "yes";
+  // } else { // this will vanish eventually
+  //   console.log('2 display existing page');
+  //   req.query.fresh = "no";
+  // }
+
+  pp.isFeedFresh(function(err, fresh) {
+    if (err || ! fresh ) { 
+        // console.log('index error: %s', JSON.stringify(err, null, 4));
+        console.log('feed not found, updating');
+        pp.updateFeed(function(err) {
+          console.log('pp.updateFeed');
+          if (err) {
+            console.log('updating error, sending http 500: %s', err);
+            res.send(500);
+          } else {
+            console.log('updated feed, displaying');
+            req.query.fresh = "yes";
+          }
+        });
+    } else {
+        console.log('feed is fresh, display existing content');
+        req.query.fresh = "no";
+    }
+  });
 
   //run the handler in littleprinter
   next(); 
