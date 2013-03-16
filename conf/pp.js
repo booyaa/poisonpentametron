@@ -2,7 +2,7 @@
 
 var config = {
   feed : './stage/pentametron.rss',
-  maxAgeInHours : 1,
+  maxAgeInHours : 0,
   url : 'http://booyaa.org/pentametron.rss',
   maxLines : 8,
   tweetRegExp : /pentametron: RT @\w+: (.*)/i,
