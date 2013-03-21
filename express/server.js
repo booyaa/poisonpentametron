@@ -44,16 +44,16 @@ app.use('/edition', function(req, res, next) {
             next(); 
           } else {
             console.log('updated feed, displaying');
-            dafuq = "yes";
-            req.query.fresh = dafuq;
+            req.query.fresh = new Date();
             //run the handler in littleprinter
             next(); 
           }
         });
     } else {
         console.log('feed is fresh, display existing content');
-        dafuq = "no";
-        req.query.fresh = dafuq;
+        // dafuq = "no";
+        // req.query.fresh = dafuq;
+        //
         //run the handler in littleprinter
         next(); 
     }

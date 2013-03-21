@@ -1,0 +1,16 @@
+{
+  "feed" : "./stage/pentametron.rss",
+  "maxAgeInMinutes" : 2,
+  "url" : "http://booyaa.org/pentametron.rss",
+  "maxLines" : 8,
+  "tweetRegExp" : "pentametron: RT @\\w+: (.*)",
+  "tweetRegExpOpt" :  "i",
+  "rawFile" : "./stage/rawfile.txt",
+  "stripCharsRegExp" : "[^A-Za-z\\s!?]",
+  "stripCharsRegExpOpt" : "gi",
+  "cleanFile" : "./stage/cleanFile.txt",
+  "poetryBannerFile" : "./views/poetry-banner.ejs",
+  "poetryPlainFile" : "./views/poetry-plain.ejs",
+  "stageDir" : "./stage/",
+  "staticDir/" : "./static/debug/"
+}

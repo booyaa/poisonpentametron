@@ -2,7 +2,7 @@
   "name": "poison-pentametron",
   "title": "Poison Pentametron",
   "description": "Mashed up by @booyaa. Curated by @pentametron. Words by @you.",
-  "version": "1.0.0-32",
+  "version": "1.0.0-42",
   "homepage": "https://github.com/booyaa/poison-pentametron",
   "author": {
     "name": "booyaa",
@@ -22,8 +22,12 @@
     "underscore.string": "2.3.1",
     "date-utils": "1.2.12",
     "async": "0.2.6",
-    "request": "2.16.2"
+    "request": "2.16.2",
+    "fs-extra": "~0.6.0",
+    "winston": "0.6.2",
+    "nconf": "0.6.7"
   },
+  "analyze": false,
   "devDependencies": {
     "grunt": "0.4.0",
     "grunt-contrib-jshint": "0.1.0"
