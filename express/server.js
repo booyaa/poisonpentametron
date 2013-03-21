@@ -31,15 +31,13 @@ app.use('/edition', function(req, res, next) {
   };
 
   pp.isFeedFresh(function(err, fresh) {
-    var dafuq = "xx";
     if (err || ! fresh ) { 
-        // console.log('index error: %s', JSON.stringify(err, null, 4));
         console.log('feed not found, updating');
         pp.updateFeed(function(err) {
           console.log('pp.updateFeed');
           if (err) {
             console.log('updating error, sending http 500: %s', err);
-            res.send(500);
+            res.send(500); 
             //run the handler in littleprinter
             next(); 
           } else {
@@ -51,9 +49,6 @@ app.use('/edition', function(req, res, next) {
         });
     } else {
         console.log('feed is fresh, display existing content');
-        // dafuq = "no";
-        // req.query.fresh = dafuq;
-        //
         //run the handler in littleprinter
         next(); 
     }
@@ -73,6 +68,29 @@ app.use('/sample', function(req, res, next) {
   next(); 
 });
 
+
+//Debugging
+app.use('/debug', function(req, res) {
+  console.log('/debug');
+  var fs = require('fs')
+    , index = '<ul>\n';
+
+    // source? somewhere on so
+    app.locals.absUrl = function(url) {
+      var host = req.headers.host;
+      return 'http://' + host + url;
+    };
+
+  fs.readdir('./static/debug/', function(err, files) {
+    files.forEach(function(file) {
+      console.log('file: %s', file);
+      index += '\n<li><a href="' + '/debug/' + file + '">'  + file + '</a></li>';
+    });
+
+    index += '\n</ul>\n';
+    res.render('debug', { fileList : index });
+  });
+});
 
 //start little printer express server
 littleprinter.setup(app, handler);
