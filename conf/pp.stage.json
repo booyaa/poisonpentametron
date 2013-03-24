@@ -1,6 +1,6 @@
 {
   "feed" : "./stage/pentametron.rss",
-  "maxAgeInMinutes" : 1,
+  "maxAgeInMinutes" : 60,
   "url" : "http://booyaa.org/pentametron.rss",
   "maxLines" : 8,
   "tweetRegExp" : "pentametron: RT @\\w+: (.*)",

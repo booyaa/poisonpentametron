@@ -1,6 +1,6 @@
 {
   "feed" : "./stage/pentametron.rss",
-  "maxAgeInMinutes" : 2,
+  "maxAgeInMinutes" : 1,
   "url" : "http://booyaa.org/pentametron.rss",
   "maxLines" : 8,
   "tweetRegExp" : "pentametron: RT @\\w+: (.*)",
@@ -12,5 +12,5 @@
   "poetryBannerFile" : "./views/poetry-banner.ejs",
   "poetryPlainFile" : "./views/poetry-plain.ejs",
   "stageDir" : "./stage/",
-  "staticDir/" : "./static/debug/"
+  "staticDir" : "./static/debug/"
 }
