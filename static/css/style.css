@@ -1,12 +1,12 @@
 /* reset sheet for little printer, mostly guess work */ 
 
 body {
-  width: 384px;
-  max-width: 384px;
-  /* overflow: hidden; */
-  padding: 0;
-  margin: 0;
-  /* max-height:800px; */
+  width: 384px; 
+  /* max-width: 384px; */
+  
+  /*FIXME: use div instead -  padding-left: 34px; */
+  padding: 0px;
+  margin: 0px; 
   color:#000;
   background:#fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,6 +39,21 @@ a {
   font-weight: bold;
 }
 
+.bannercenter {
+  max-width: 384px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  display: block;
+  background-color: blue;
+}
+
+.bannerblock {
+  max-width: 350px;
+  padding: 0px;
+  display: block;
+  background-color: red;
+}
 /* Typography - ripped form bootstrap with base of 20px */
 
 p {
