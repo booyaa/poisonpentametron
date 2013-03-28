@@ -39,21 +39,70 @@ a {
   font-weight: bold;
 }
 
-.bannercenter {
+.bannerdiv {
   max-width: 384px;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 0 25px 0 25px;
   display: block;
+
+  /* debugging 
   background-color: blue;
+  height: 1450px; */
 }
 
-.bannerblock {
-  max-width: 350px;
-  padding: 0px;
+.banner {
+  max-width: 326px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  /* debugging
+  background-color: red;
+  */
+}
+
+.banner > img {
+  /* fuck knows why this works: http://stackoverflow.com/a/1001962/105282 
+   * don't use display: block; it will break everything...
+   * */
+  padding: 0;
+  margin: -2px; /* -3px zero padding looks odd */
+  border: 0;
+}
+
+.testcontainer {
+  max-width: 384px;
+  /* top, right, bot, left */
+  padding: 0px 15px 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  height: 5px;
+}
+.tleftblock {
+  width: 100px;
+  max-width: 100px;
   display: block;
   background-color: red;
+  float:left;
 }
+
+.tcentreblock {
+  width: 150px;
+  max-width: 184px;
+  display: block;
+  background-color: yellow;
+  float: left;
+}
+
+.trightblock {
+  width: 100px;
+  max-width: 100px;
+  display: block;
+  background-color: blue;
+  float: left;
+}
+
 /* Typography - ripped form bootstrap with base of 20px */
 
 p {
