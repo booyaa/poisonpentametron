@@ -1,12 +1,11 @@
 /* reset sheet for little printer, mostly guess work */ 
 
 body {
-  width: 384px; 
-  /* max-width: 384px; */
+  /* width: 384px;  */
+  max-width: 384px;
   
-  /*FIXME: use div instead -  padding-left: 34px; */
-  padding: 0px;
-  margin: 0px; 
+  padding: 0;
+  margin: 0; 
   color:#000;
   background:#fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -46,9 +45,9 @@ a {
   padding: 0 25px 0 25px;
   display: block;
 
-  /* debugging 
-  background-color: blue;
-  height: 1450px; */
+  /* debugging */
+  /* background-color: blue; */
+  /* height: 1450px; */
 }
 
 .banner {
@@ -56,9 +55,8 @@ a {
   display: block;
   padding: 0;
   margin: 0;
-  /* debugging
-  background-color: red;
-  */
+  /* debugging */
+  /* background-color: red; */
 }
 
 .banner > img {
@@ -66,41 +64,8 @@ a {
    * don't use display: block; it will break everything...
    * */
   padding: 0;
-  margin: -2px; /* -3px zero padding looks odd */
+  margin: -3px; /* -3px zero padding looks odd */
   border: 0;
-}
-
-.testcontainer {
-  max-width: 384px;
-  /* top, right, bot, left */
-  padding: 0px 15px 0px 15px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: green;
-  height: 5px;
-}
-.tleftblock {
-  width: 100px;
-  max-width: 100px;
-  display: block;
-  background-color: red;
-  float:left;
-}
-
-.tcentreblock {
-  width: 150px;
-  max-width: 184px;
-  display: block;
-  background-color: yellow;
-  float: left;
-}
-
-.trightblock {
-  width: 100px;
-  max-width: 100px;
-  display: block;
-  background-color: blue;
-  float: left;
 }
 
 /* Typography - ripped form bootstrap with base of 20px */
