@@ -38,11 +38,15 @@ a {
   font-weight: bold;
 }
 
+.center {
+  text-align: center;
+}
+
 .bannerdiv {
   max-width: 384px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 25px 0 25px;
+  padding: 0 40px 0; /* 0 25px 0 25px */
   display: block;
 
   /* debugging */
@@ -51,10 +55,18 @@ a {
 }
 
 .banner {
-  max-width: 326px;
+  /* Scenario A - disabled, because when you change margin from -3px on .banner > img the banner starts to wrap */
+  /* max-width: 326px;  */
+
+  /* Scenario B - use this if banner letters are overlapped in berg rapid prototyper */
+  /* width: 370px;  */
+
+  /* Scenario C - uses .banner > img settings with Scenario A */
+  width: 330px;
   display: block;
   padding: 0;
   margin: 0;
+
   /* debugging */
   /* background-color: red; */
 }
@@ -64,7 +76,13 @@ a {
    * don't use display: block; it will break everything...
    * */
   padding: 0;
-  margin: -3px; /* -3px zero padding looks odd */
+
+  /* Scenario A/C  - -3px zero padding looks odd, disabled because rapid prototyper munged everything too much */
+  margin: -2px; 
+
+  /* Scenario B - use this if banner letters are overlapped in berg rapid prototyper */ */
+  /* margin: 0; */ 
+
   border: 0;
 }
 
