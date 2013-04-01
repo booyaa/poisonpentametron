@@ -1,6 +1,6 @@
 {
-  "name": "poison-pentametron-dev",
-  "title": "Poison Pentametron Dev Instance",
+  "name": "poison-pentametron",
+  "title": "Poison Pentametron",
   "description": "Mashed up by @booyaa. Curated by @pentametron. Words by @you.",
   "version": "1.0.0-61",
   "homepage": "https://github.com/booyaa/poison-pentametron",
@@ -36,7 +36,7 @@
     "node": ">=0.8.0",
     "npm": "1.1.x"
   },
-  "subdomain": "ppdev",
+  "subdomain": "poisonpentametron",
   "scripts": {
     "start": "express/server.js"
   },
