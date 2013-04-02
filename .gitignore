@@ -11,12 +11,12 @@ Gruntfile.js
 Procfile
 
 ## yes i know it should be here, but it fucks up my deploy to nodejitsu
-stage/*.txt*
-stage/*.json*
-stage/*.rss*
-static/debug/*.txt*
-static/debug/*.json*
-static/debug/*.rss*
+stage/*.txt
+stage/*.json
+stage/*.rss
+static/debug/*.txt
+static/debug/*.json
+static/debug/*.rss
 
 dontcommitmebro
 pids
