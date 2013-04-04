@@ -8,6 +8,7 @@ body {
   margin: 0; 
   color:#000;
   background:#fff;
+  /* background:#666; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -42,33 +43,39 @@ a {
   text-align: center;
 }
 
+.footerdiv {
+  max-width: 384px;
+  overflow: hidden;
+  /* background-color: green; */
+}
+
+.footer {
+  max-width: 290px;
+  margin: 0 auto;
+  /* background-color: white; */
+  overflow: hidden;
+
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
 .bannerdiv {
   max-width: 384px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 40px 0; /* 0 25px 0 25px */
-  display: block;
 
   /* debugging */
   /* background-color: blue; */
-  /* height: 1450px; */
 }
 
 .banner {
-  /* Scenario A - disabled, because when you change margin from -3px on .banner > img the banner starts to wrap */
-  /* max-width: 326px;  */
-
-  /* Scenario B - use this if banner letters are overlapped in berg rapid prototyper */
-  /* width: 370px;  */
-
-  /* Scenario C - uses .banner > img settings with Scenario A */
-  width: 330px;
+  width: 290px; 
+  /* width: 317px;  */
+  /* chrome 0 spacing / .5cm right margin- width: 317px;   */
+  /* chrome wraps / perfect with berg - width: 290px;   */
   display: block;
-  padding: 0;
-  margin: 0;
+  margin: 0 auto;
 
   /* debugging */
-  /* background-color: red; */
+  /* background-color: white; */
 }
 
 .banner > img {
@@ -77,12 +84,8 @@ a {
    * */
   padding: 0;
 
-  /* Scenario A/C  - -3px zero padding looks odd, disabled because rapid prototyper munged everything too much */
-  margin: -2px; 
-
-  /* Scenario B - use this if banner letters are overlapped in berg rapid prototyper */ */
-  /* margin: 0; */ 
-
+  /* -3px chrome zero, overlaps in berg */
+  margin: -2px;
   border: 0;
 }
 
