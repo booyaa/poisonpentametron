@@ -83,8 +83,10 @@ app.use('/debug', function(req, res) {
 
   fs.readdir('./static/debug/', function(err, files) {
     files.forEach(function(file) {
-      console.log('file: %s', file);
-      index += '\n<li><a href="' + '/debug/' + file + '">'  + file + '</a></li>';
+      if (file !== '.npmignore') {
+        console.log('file: %s', file);
+        index += '\n<li><a href="' + '/debug/' + file + '">'  + file + '</a></li>';
+      }
     });
 
     index += '\n</ul>\n';
