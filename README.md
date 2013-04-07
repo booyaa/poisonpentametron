@@ -22,6 +22,7 @@ http://poisonpentametron.nodejitsu.com/sample/
 * Roy Lines - for writing the node version of the little printer api.
 * Edwin Webb - for making an awesome grunt template based off roy's hard work.
 * Sean McManus - for his excellent ransom font.
+* @louloulou - who made the new asterisk glyph to enable swearword filtering.
 
 ## Feedback
 
