@@ -67,8 +67,8 @@ a {
 }
 
 .banner {
-  width: 290px; 
-  /* width: 317px;  */
+  /* width: 290px;  */
+  width: 317px; 
   /* chrome 0 spacing / .5cm right margin- width: 317px;   */
   /* chrome wraps / perfect with berg - width: 290px;   */
   display: block;
