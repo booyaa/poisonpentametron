@@ -1,5 +1,5 @@
 {
-  "name": "poison-pentametron",
+  "name": "poison-pentametron-dev",
   "title": "Poison Pentametron",
   "description": "Mashed up by @booyaa. Curated by @pentametron. Words by @you.",
   "version": "1.0.0-85",
@@ -36,7 +36,7 @@
     "node": ">=0.8.0",
     "npm": "1.1.x"
   },
-  "subdomain": "poisonpentametron",
+  "subdomain": "ppdev",
   "scripts": {
     "start": "express/server.js"
   },

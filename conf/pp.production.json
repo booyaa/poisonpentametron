@@ -12,5 +12,6 @@
   "poetryBannerFile" : "./views/poetry-banner.ejs",
   "poetryPlainFile" : "./views/poetry-plain.ejs",
   "stageDir" : "./stage/",
-  "staticDir" : "./static/debug/"
+  "staticDir" : "./static/debug/",
+  "blockList" : ["fuck", "fucking", "fuckin", "shitting", "shittin", "shit", "cunt", "bastard", "bitch", "bitching", "wanker", "wanking", "asshole", "arsehole"]
 }
