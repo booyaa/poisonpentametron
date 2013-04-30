@@ -2,7 +2,7 @@
   "name": "poison-pentametron",
   "title": "Poison Pentametron",
   "description": "Mashed up by @booyaa. Curated by @pentametron. Words by @you.",
-  "version": "1.0.0-91",
+  "version": "1.0.0-92",
   "homepage": "https://github.com/booyaa/poison-pentametron",
   "author": {
     "name": "booyaa",
@@ -12,6 +12,12 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/booyaa/poison-pentametron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/booyaa/poison-pentametron/issues"
+  },
+  "license": {
+    "url": "https://github.com/booyaa/poison-pentametron/blog/master/LICENSE-MIT"
   },
   "dependencies": {
     "ejs": "0.8.3",
@@ -29,16 +35,20 @@
   },
   "analyze": false,
   "devDependencies": {
-    "grunt": "0.4.0",
-    "grunt-contrib-jshint": "0.1.0"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0"
   },
+  "main": "lib/poisonpentametron",
   "engines": {
     "node": ">=0.8.0",
     "npm": "1.1.x"
   },
   "subdomain": "poisonpentametron",
   "scripts": {
-    "start": "express/server.js"
+    "start": "express/server.js",
+    "test": "grunt nodeunit"
   },
   "keywords": [
     "berg",
