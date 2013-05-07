@@ -13,5 +13,5 @@
   "poetryPlainFile" : "./views/poetry-plain.ejs",
   "stageDir" : "./stage/",
   "staticDir" : "./static/debug/",
-  "blockList" : ["fuck", "fuck!", "fucking", "fucking!", "fuckin", "shitting", "shittin", "shit", "shit!", "cunt", "cunt!", "bastard", "bastard!", "bitch", "bitch!", "bitching", "wanker", "wanker!", "wanking", "asshole", "asshole!", "arsehole", "arsehole!"]
+  "blockList" : ["fuck", "fuck!", "fucking", "fucking!", "fuckin", "fucked", "fucked!", "shitting", "shittin", "shit", "shit!", "cunt", "cunt!", "bastard", "bastard!", "bitch", "bitch!", "bitching", "wanker", "wanker!", "wanking", "asshole", "asshole!", "arsehole", "arsehole!", "x1booyaa1x"]
 }
