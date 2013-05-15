@@ -1,6 +1,6 @@
 'use strict';
 
-var pp = require('../lib/poisonpentametron.js');
+var pp = require('../lib/censorship.js');
 
 exports['censorship'] = {
   setUp: function(done) {
@@ -13,12 +13,12 @@ exports['censorship'] = {
   },
 
   'censor tweet': function(test) {
-    test.equal(pp.censorTweets('this is a test tweet x1booyaa1x woot!'), 'this is a test tweet x********* woot!', 'should censor tweet');
+    test.equal(pp.censorTweet('this is a test tweet x1booyaa1x woot!'), 'this is a test tweet x********* woot!', 'should censor tweet');
     test.done();
   },
 
   'censor tweet2': function(test) { // fixme: lame test needs to be a dictionary test praps?
-    test.equal(pp.censorTweets('this is a test tweet fucked woot!'), 'this is a test tweet ' + pp.censorWord('fucked') + ' woot!', 'should censor tweet');
+    test.equal(pp.censorTweet('this is a test tweet fucked woot!'), 'this is a test tweet ' + pp.censorWord('fucked') + ' woot!', 'should censor tweet');
     test.done();
   }
 };
