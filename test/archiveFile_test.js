@@ -1,6 +1,7 @@
 'use strict';
 
-var pp = require('../lib/archiveFile.js');
+var fs = require('fs')
+  , pp = require('../lib/archiveFile.js');
 
 exports['archiveFile'] = {
   setUp: function(done) {
@@ -32,12 +33,50 @@ exports['saveFile'] = {
     this.encoding = 'utf-8';
     done();
   },
-  'saveFileTest': function(test) {
+  tearDown: function(done) {
+    fs.unlinkSync(this.fileName);
+    done();
+  },
+  'saveFile': function(test) {
     var data = this.data
       , fileName = this.fileName; // FIXME: fugly
+
     pp.saveFile(fileName, this.data, this.encoding, function(err, d) {
       test.equal(err, undefined, 'there should be no errors');
       test.equal(d, data, 'should return data');
+
+      test.ok(fs.existsSync(fileName), 'save file should exist');
+      test.done();
+    });
+  }
+};
+
+exports['saveAndArchiveFile'] = {
+  setUp: function(done) {
+    // setup here
+    this.fileName = 'stage/hello.txt';
+    this.archiveFileName = pp.getArchiveFileName(this.fileName); // stage/hello.dayNo.txt
+    this.data = 'hello world';
+    this.encoding = 'utf-8';
+    done();
+  },
+  tearDown: function(done) {
+    fs.unlinkSync(this.fileName);
+    fs.unlinkSync(this.archiveFileName);
+    done();
+  },
+  'saveAndArchiveFile test': function(test) {
+    var data = this.data
+      , fileName = this.fileName
+      , archiveFileName = this.archiveFileName; // FIXME: fugly
+
+    pp.saveAndArchiveFile(fileName, this.data, this.encoding, function(err, d) {
+      console.log('testing saveAndAr..');
+      test.equal(err, undefined, 'there should be no errors');
+      test.equal(d, data, 'should return data');
+
+      test.ok(fs.existsSync(fileName), 'save file should exist');
+      test.ok(fs.existsSync(archiveFileName), 'archived file should exist');
       test.done();
     });
   }
