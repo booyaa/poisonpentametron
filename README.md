@@ -1,6 +1,6 @@
 # Poison Pentametron
 
-This is a working publication based on my demo for the Berg Little Printer Hackday #2.
+This is a working publication based on my demo for the Berg Little Printer Hackday #2. The gals at Berg did a wonderful writeup about the day: [http://blog.bergcloud.com/2013/03/05/berg-cloud-hack-day-number-two/](http://blog.bergcloud.com/2013/03/05/berg-cloud-hack-day-number-two/).
 
 Approval status permitting this will become available on the Berg Cloud publication directory shortly.
 
